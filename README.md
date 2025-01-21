@@ -10,7 +10,17 @@
 
 <h2> Sim! agora você pode marcar seus pontos da melhor forma possível, com uma interface pensada para melhorar a experiencia dos usuários.</h2>
 
-### Imagens
+<div>
+  <img src="lib/app_images/intro.png" width="200px"">
+  <img src="lib/app_images/screenshot-1.jpg" width="200.04px">
+  <img src="lib/app_images/screenshot-2.jpg" width="200.04px">
+  <img src="lib/app_images/screenshot-3.jpg" width="200.04px">
+  <img src="lib/app_images/screenshot-4.jpg" width="200.04px">
+  <img src="lib/app_images/screenshot-5.jpg" width="200.04px">
+  <img src="lib/app_images/screenshot-6.jpg" width="450px" height="200px">
+  <img src="lib/app_images/screenshot-7.jpg" width="200.04px">
+  <img src="lib/app_images/screenshot-8.jpg" width="200.04px">
+</div>
 
 <div>
   <h2>Principais funcionalidades:</h2>
@@ -24,7 +34,7 @@
 
 ![JakeAdventureTimeGIF](https://github.com/user-attachments/assets/e9a22118-aa3d-42d3-8bb0-fd97c41d380c)
 
-## Logo mais o app estará disponível para download na Play Store! 
+## Logo mais estarei disponibilisando o link para download na Play Store, fiquem ligados! 
 </div>
 
 <p>Este projeto está sendo desenvolvido em Flutter com o intuito de aprender/melhorar meu conhecimento em desenvolvimento mobile</p>
