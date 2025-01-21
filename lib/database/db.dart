@@ -24,9 +24,9 @@ class DatabaseHelper {
 
     return await openDatabase(
       path,
-      version: 2, // Atualize a versão para 2
+      version: 2,
       onCreate: _onCreate,
-      onUpgrade: _onUpgrade, // Adicione o suporte a upgrades
+      onUpgrade: _onUpgrade,
     );
   }
 
@@ -76,6 +76,26 @@ class DatabaseHelper {
       {
         'pontuacao_equipe1': pontuacaoEquipe1,
         'pontuacao_equipe2': pontuacaoEquipe2,
+      },
+      where: 'id = ?',
+      whereArgs: [id],
+    );
+  }
+
+  Future<void> updateTeamName(
+      int id, String equipeField, String equipeName) async {
+    final db = await database;
+
+    // Verifica se o campo fornecido é válido (opcional, mas recomendado).
+    if (equipeField != 'equipe1' && equipeField != 'equipe2') {
+      throw ArgumentError('O campo de equipe deve ser "equipe1" ou "equipe2".');
+    }
+
+    await db.update(
+      'partidas',
+      {
+        equipeField:
+            equipeName, // Atualiza dinamicamente `equipe1` ou `equipe2`.
       },
       where: 'id = ?',
       whereArgs: [id],
