@@ -34,7 +34,7 @@
 
 ![JakeAdventureTimeGIF](https://github.com/user-attachments/assets/e9a22118-aa3d-42d3-8bb0-fd97c41d380c)
 
-## Logo mais estarei disponibilisando o link para download na Play Store, fiquem ligados! 
+## Logo mais estarei disponibilizando o link para download na Play Store, fiquem ligados! 
 </div>
 
 <p>Este projeto está sendo desenvolvido em Flutter com o intuito de aprender/melhorar meu conhecimento em desenvolvimento mobile</p>
