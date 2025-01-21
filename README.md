@@ -37,4 +37,6 @@
 ## Logo mais estarei disponibilizando o link para download na Play Store, fiquem ligados! 
 </div>
 
-<p>Este projeto está sendo desenvolvido em Flutter com o intuito de aprender/melhorar meu conhecimento em desenvolvimento mobile</p>
+<p>Este projeto está sendo desenvolvido em Flutter com o intuito de aprender/melhorar meus conhecimentos em desenvolvimento mobile.</p>
+
+## ⚠️ESTE PROJETO AINDA NÃO ESTÁ FINALIZADO⚠️
